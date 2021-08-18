@@ -1,4 +1,4 @@
-package app.socfindo.sspl_apps_v2
+package app.ourapps.apps_rebuild
 
 import org.junit.Test
 

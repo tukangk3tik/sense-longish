@@ -7,14 +7,14 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="app.socfindo.sspl_apps_v2.ui.home.HomeFragment"
+        android:name="app.ourapps.apps_rebuild.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home"
         />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="app.socfindo.sspl_apps_v2.ui.profile.ProfileFragment"
+        android:name="app.ourapps.apps_rebuild.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile"
         />

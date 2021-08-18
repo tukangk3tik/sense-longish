@@ -1,12 +1,10 @@
-package app.socfindo.sspl_apps_v2
+package app.ourapps.apps_rebuild
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import app.socfindo.sspl_apps_v2.databinding.ActivityMainBinding
+import app.ourapps.apps_rebuild.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {

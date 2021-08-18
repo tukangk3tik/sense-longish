@@ -1,4 +1,4 @@
-package app.socfindo.sspl_apps_v2.ui.home
+package app.ourapps.apps_rebuild.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

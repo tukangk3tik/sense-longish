@@ -1,4 +1,4 @@
-package app.socfindo.sspl_apps_v2.models.menu
+package app.ourapps.apps_rebuild.models.menu
 
 enum class MenuType {
     MAIN,
