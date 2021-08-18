@@ -15,4 +15,5 @@
 local.properties
 
 /.idea
+
 ./app/src/main/res/drawable/logo.png
