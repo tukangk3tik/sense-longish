@@ -15,10 +15,10 @@
         <activity
             android:name="app.ourapps.apps_rebuild.SplashScreenActivity"
             android:exported="true">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="app.ourapps.apps_rebuild.LoginActivity"
@@ -26,11 +26,7 @@
             android:theme="@style/LoginTheme" />
         <activity
             android:name="app.ourapps.apps_rebuild.MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="true">
         </activity>
     </application>
 
