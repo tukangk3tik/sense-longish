@@ -41,6 +41,7 @@ class MenuGridAdapter()
                     .into(menuIcon)
 
                 menuString.text = itemView.resources.getString(menu.nameStrRes)
+                println(routes)
 
                 itemView.setOnClickListener {
                     routes.setDestination(menu.route)
