@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.ourapps.apps_rebuild" >
+    package="app.ourapps.apps_rebuild">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -11,23 +11,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Apps_Rebuild" >
+        android:theme="@style/Theme.Apps_Rebuild">
         <activity
-            android:name="app.ourapps.apps_rebuild.SplashScreenActivity"
+            android:name=".ui.breed.BreedingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.SeedPActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="app.ourapps.apps_rebuild.LoginActivity"
+            android:name=".LoginActivity"
             android:exported="true"
             android:theme="@style/LoginTheme" />
         <activity
-            android:name="app.ourapps.apps_rebuild.MainActivity"
-            android:exported="true">
-        </activity>
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
