@@ -1,29 +1,28 @@
-package app.ourapps.apps_rebuild.ui.seedp
+package app.ourapps.apps_rebuild.ui.breed.germinasi_1
 
 import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
-import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import app.ourapps.apps_rebuild.utils.AppRoutes
-import app.ourapps.apps_rebuild.databinding.ActivitySeedPBinding
+import app.ourapps.apps_rebuild.databinding.ActivityGerminasi1BreedBinding
 import app.ourapps.apps_rebuild.models.menu.Menu
-import app.ourapps.apps_rebuild.utils.menu.MenuGridAdapter
+import app.ourapps.apps_rebuild.ui.breed.GerminasiBreedViewModel
+import app.ourapps.apps_rebuild.utils.AppRoutes
 import app.ourapps.apps_rebuild.utils.MenuClickListener
 import app.ourapps.apps_rebuild.utils.menu.MenuListAdapter
 
-class SeedPActivity : AppCompatActivity(), MenuClickListener {
+class Germinasi1BreedActivity : AppCompatActivity(), MenuClickListener {
 
-    private lateinit var binding: ActivitySeedPBinding
-    private val seedViewModel: SeedPViewModel by viewModels()
+    private lateinit var binding: ActivityGerminasi1BreedBinding
+    private val germinasiViewModel: GerminasiBreedViewModel by viewModels()
     private val appRoutes = AppRoutes.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivitySeedPBinding.inflate(layoutInflater)
+        binding = ActivityGerminasi1BreedBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val adapter = MenuListAdapter()
@@ -31,7 +30,7 @@ class SeedPActivity : AppCompatActivity(), MenuClickListener {
         binding.rvMenuDetail.layoutManager = LinearLayoutManager(this)
         binding.rvMenuDetail.adapter = adapter
 
-        seedViewModel.listSubMenu.observe(this, {
+        germinasiViewModel.listMenuDetail1.observe(this, {
             if (it.isNotEmpty()) {
                 adapter.setData(it)
             }

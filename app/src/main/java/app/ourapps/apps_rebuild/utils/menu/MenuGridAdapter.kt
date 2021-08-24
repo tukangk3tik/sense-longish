@@ -1,20 +1,19 @@
-package app.ourapps.apps_rebuild.ui.home
+package app.ourapps.apps_rebuild.utils.menu
 
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import app.ourapps.apps_rebuild.AppRoutes
 import app.ourapps.apps_rebuild.databinding.ItemGridMenuBinding
 import app.ourapps.apps_rebuild.models.menu.Menu
+import app.ourapps.apps_rebuild.utils.MenuClickListener
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 
-class MenuGridAdapter()
+class MenuGridAdapter
     : RecyclerView.Adapter<MenuGridAdapter.MenuGridHolder>()
 {
     private val listMainMenu = ArrayList<Menu>()
-    private val routes = AppRoutes.getInstance()
+    var listener: MenuClickListener? = null
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
@@ -41,16 +40,9 @@ class MenuGridAdapter()
                     .into(menuIcon)
 
                 menuString.text = itemView.resources.getString(menu.nameStrRes)
-                println(routes)
 
                 itemView.setOnClickListener {
-                    routes.setDestination(menu.route)
-
-                    val destination = routes.getActivityRoute()
-                    if (destination != null){
-                        val mIntent = Intent(itemView.context, destination)
-                        itemView.context.startActivity(mIntent)
-                    }
+                    listener?.onItemClicked(it, menu)
                 }
             }
         }

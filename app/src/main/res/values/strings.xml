@@ -23,4 +23,46 @@
     <string name="seed_production">Seed Production</string>
     <string name="breeding">Breeding</string>
     <string name="label_menu_name">Menu name</string>
+    <string name="lbk">LBK</string>
+    <string name="germinasi">Germinasi</string>
+    <string name="germinasi_1">Germinasi - Proses I</string>
+    <string name="germinasi_2">Germinasi - Proses II</string>
+    <string name="laboratorium_buah_kawinan">Laboratorium Buah Kawinan</string>
+    <string name="label_sub_menu_detail">Sub Menu Detail</string>
+    <string name="description_icon">Icon</string>
+
+    <string name="panen">Panen</string>
+    <string name="timbang">Timbang</string>
+    <string name="ethreel">Ethreel</string>
+    <string name="rontok">Rontok</string>
+    <string name="rendam">Rendam</string>
+    <string name="kupas">Kupas</string>
+    <string name="sortasi">Sortasi</string>
+    <string name="penggonian">Penggonian</string>
+    <string name="gudang">Gudang</string>
+    <string name="pengiriman">Pengiriman</string>
+    <string name="penerimaan_kiriman">Penerimaan Kiriman</string>
+    <string name="penyimpanan_kiriman">Penyimpanan Kiriman</string>
+
+    <string name="r_apung">R. Apung</string>
+    <string name="r_apung_afkir">R. Apung Afkir</string>
+    <!--  rendam / sudah ada   -->
+    <string name="fungisida">Fungisida</string>
+    <string name="aerasi">Aerasi</string>
+    <string name="kering_angin">Kering Angin</string>
+    <string name="suhu_ruang_panas">Suhu Ruang Panas</string>
+    <string name="ruang_panas">Ruang Panas</string>
+
+
+    <string name="prehating">Prehating</string>
+    <string name="r_gelap">R. Gelap</string>
+    <string name="aerasi_r_gelap">Aerasi R. Gelap</string>
+    <string name="kutip_1">Kutip I</string>
+    <string name="kutip_2">Kutip II</string>
+    <string name="kutip_3">Kutip III</string>
+    <string name="kutip_4">Kutip IV</string>
+    <string name="kutip_5">Kutip V</string>
+    <string name="kutip_kch_1">Kutip KCH I</string>
+    <string name="kutip_kch_2">Kutip KCH II</string>
+
 </resources>
