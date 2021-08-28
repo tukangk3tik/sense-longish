@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import app.ourapps.apps_rebuild.databinding.ActivityBreedingBinding
 import app.ourapps.apps_rebuild.models.menu.Menu
 import app.ourapps.apps_rebuild.utils.AppRoutes
-import app.ourapps.apps_rebuild.utils.MenuClickListener
+import app.ourapps.apps_rebuild.utils.menu.MenuClickListener
 import app.ourapps.apps_rebuild.utils.menu.MenuListAdapter
 
 class BreedingActivity : AppCompatActivity(), MenuClickListener {

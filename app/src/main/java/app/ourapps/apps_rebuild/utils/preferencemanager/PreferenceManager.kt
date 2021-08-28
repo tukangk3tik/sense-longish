@@ -32,6 +32,14 @@ open class PreferenceManager constructor(context: Context) : IPreferenceHelper
         return preferences[NAME] ?: ""
     }
 
+    override fun setJabatan(jabatan: String) {
+        preferences[JABATAN] = jabatan
+    }
+
+    override fun getJabatan(): String {
+        return preferences[JABATAN] ?: ""
+    }
+
     override fun setStatus(status: Boolean) {
         preferences[STATUS] = status
     }
@@ -48,6 +56,7 @@ open class PreferenceManager constructor(context: Context) : IPreferenceHelper
         const val USER_ID = "id"
         const val USERNAME = "username"
         const val NAME = "name"
+        const val JABATAN = "jabatan"
         const val STATUS = "status"
     }
 }

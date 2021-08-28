@@ -1,4 +1,4 @@
-package app.ourapps.apps_rebuild.utils
+package app.ourapps.apps_rebuild.utils.menu
 
 import android.view.View
 import app.ourapps.apps_rebuild.models.menu.Menu

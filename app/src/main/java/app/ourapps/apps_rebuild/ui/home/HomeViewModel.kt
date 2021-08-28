@@ -13,4 +13,17 @@ class HomeViewModel : ViewModel() {
     }
 
     val listMainMenu: LiveData<List<Menu>> = _mainMenu
+
+    private val _userIdentity : MutableLiveData<List<String>>? = null
+
+    fun setIdentity(nama: String, jabatan: String){
+        val user = listOf(nama, jabatan)
+        _userIdentity?.postValue(user)
+    }
+
+    fun getIdentity(): LiveData<List<String>>? = _userIdentity
+
+    fun isAvailableIdentity(): Boolean {
+        return _userIdentity != null
+    }
 }

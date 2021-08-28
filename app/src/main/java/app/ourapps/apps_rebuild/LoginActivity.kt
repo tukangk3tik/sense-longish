@@ -51,6 +51,8 @@ class LoginActivity : AppCompatActivity() {
 
                 //will connect to online network
                 preferenceHelper.setUsername(username)
+                preferenceHelper.setName("TEST USER")
+                preferenceHelper.setJabatan("Test jabatan")
                 preferenceHelper.setStatus(true)
 
                 val intent = Intent(this, MainActivity::class.java)

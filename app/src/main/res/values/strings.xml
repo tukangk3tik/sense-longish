@@ -64,5 +64,28 @@
     <string name="kutip_5">Kutip V</string>
     <string name="kutip_kch_1">Kutip KCH I</string>
     <string name="kutip_kch_2">Kutip KCH II</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tambah">Tambah</string>
+    <string name="no_kawinan">No. Kawinan</string>
+    <string name="daftar_nomor_kawinan_yang_belum_dikerjakan">Daftar nomor kawinan yang belum dikerjakan:</string>
+    <string name="label_0">0</string>
+    <string name="label_time">HH:ii:ss</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="simpan">SIMPAN</string>
+    <string name="berat">Berat</string>
+    <string name="no_kaleng">No. Kaleng</string>
+    <string name="ethreel">Ethreel</string>
+    <string name="jumlah_normal">Jumlah normal</string>
+    <string name="jumlah_afkir_kecil">Jumlah afkir kecil</string>
+    <string name="jumlah_afkir_pecah">Jumlah afkir pecah</string>
+    <string name="jumlah_afkir_bule">Jumlah afkir bule</string>
+    <string name="jumlah_periksa_lembaga">Jumlah periksa lembaga</string>
+    <string name="daftar_nomor_goni_yang_belum_dikerjakan">Daftar nomor goni yang belum dikerjakan</string>
+    <string name="no_goni">No. Goni</string>
+    <string name="no_goni">No. Goni</string>
+    <string name="rak">Rak</string>
+    <string name="baris">Baris</string>
+    <string name="kolom">Kolom</string>
 
 </resources>

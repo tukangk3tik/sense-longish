@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import app.ourapps.apps_rebuild.databinding.ItemGridMenuBinding
 import app.ourapps.apps_rebuild.models.menu.Menu
-import app.ourapps.apps_rebuild.utils.MenuClickListener
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 

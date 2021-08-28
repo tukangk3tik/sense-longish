@@ -5,13 +5,11 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import app.ourapps.apps_rebuild.utils.AppRoutes
 import app.ourapps.apps_rebuild.databinding.ActivitySeedPBinding
 import app.ourapps.apps_rebuild.models.menu.Menu
-import app.ourapps.apps_rebuild.utils.menu.MenuGridAdapter
-import app.ourapps.apps_rebuild.utils.MenuClickListener
+import app.ourapps.apps_rebuild.utils.menu.MenuClickListener
 import app.ourapps.apps_rebuild.utils.menu.MenuListAdapter
 
 class SeedPActivity : AppCompatActivity(), MenuClickListener {

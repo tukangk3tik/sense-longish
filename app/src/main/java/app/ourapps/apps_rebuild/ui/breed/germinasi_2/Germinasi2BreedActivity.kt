@@ -10,7 +10,7 @@ import app.ourapps.apps_rebuild.databinding.ActivityGerminasi2BreedBinding
 import app.ourapps.apps_rebuild.models.menu.Menu
 import app.ourapps.apps_rebuild.ui.breed.GerminasiBreedViewModel
 import app.ourapps.apps_rebuild.utils.AppRoutes
-import app.ourapps.apps_rebuild.utils.MenuClickListener
+import app.ourapps.apps_rebuild.utils.menu.MenuClickListener
 import app.ourapps.apps_rebuild.utils.menu.MenuListAdapter
 
 class Germinasi2BreedActivity : AppCompatActivity(), MenuClickListener {

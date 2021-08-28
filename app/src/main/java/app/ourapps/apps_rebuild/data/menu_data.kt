@@ -11,15 +11,15 @@ val mainMenu = listOf(
 )
 
 val subMenuSP = listOf(
-    Menu(50,  R.string.lbk, MenuType.SUBMAIN, R.drawable.icon_lbk, "lbk_sp"),
-    Menu(51, R.string.germinasi_1, MenuType.SUBMAIN, R.drawable.icon_germinasi_1, "germinasi_1_sp"),
-    Menu(52, R.string.germinasi_2, MenuType.SUBMAIN, R.drawable.icon_germinasi_2, "germinasi_2_sp")
+    Menu(50,  R.string.lbk, MenuType.SUBMAIN, R.drawable.icon_lbk, "sp_lbk"),
+    Menu(51, R.string.germinasi_1, MenuType.SUBMAIN, R.drawable.icon_germinasi_1, "sp_germinasi_1"),
+    Menu(52, R.string.germinasi_2, MenuType.SUBMAIN, R.drawable.icon_germinasi_2, "sp_germinasi_2")
 )
 
 val subMenuBreeding = listOf(
-    Menu(53,  R.string.lbk, MenuType.SUBMAIN, R.drawable.icon_lbk, "lbk_breed"),
-    Menu(54, R.string.germinasi_1, MenuType.SUBMAIN, R.drawable.icon_germinasi_1, "germinasi_1_breed"),
-    Menu(55, R.string.germinasi_2, MenuType.SUBMAIN, R.drawable.icon_germinasi_2, "germinasi_2_breed")
+    Menu(53,  R.string.lbk, MenuType.SUBMAIN, R.drawable.icon_lbk, "breed_lbk"),
+    Menu(54, R.string.germinasi_1, MenuType.SUBMAIN, R.drawable.icon_germinasi_1, "breed_germinasi_1"),
+    Menu(55, R.string.germinasi_2, MenuType.SUBMAIN, R.drawable.icon_germinasi_2, "breed_germinasi_2")
 )
 
 val subMenuLBKSP = listOf(

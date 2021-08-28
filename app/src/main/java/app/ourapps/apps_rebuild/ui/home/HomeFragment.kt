@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import app.ourapps.apps_rebuild.utils.AppRoutes
 import app.ourapps.apps_rebuild.databinding.FragmentHomeBinding
 import app.ourapps.apps_rebuild.models.menu.Menu
-import app.ourapps.apps_rebuild.utils.MenuClickListener
+import app.ourapps.apps_rebuild.utils.menu.MenuClickListener
 import app.ourapps.apps_rebuild.utils.menu.MenuGridAdapter
-
+import app.ourapps.apps_rebuild.utils.preferencemanager.PreferenceManager
 
 class HomeFragment : Fragment(), MenuClickListener {
 
@@ -23,6 +23,7 @@ class HomeFragment : Fragment(), MenuClickListener {
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
     private val appRoutes = AppRoutes.getInstance()
+    private lateinit var userPreferences: PreferenceManager
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -33,6 +34,11 @@ class HomeFragment : Fragment(), MenuClickListener {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
+        userPreferences = PreferenceManager(root.context)
+
+        if (!homeViewModel.isAvailableIdentity()){
+            homeViewModel.setIdentity(userPreferences.getName(), userPreferences.getJabatan())
+        }
 
         adapter = MenuGridAdapter()
         adapter.listener = this
@@ -47,6 +53,15 @@ class HomeFragment : Fragment(), MenuClickListener {
 
         // Inflate the layout for this fragment
         return root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        homeViewModel.getIdentity()?.observe(viewLifecycleOwner, {
+            binding.tvPegawaiName.text = it[0]      //first index string for name
+            binding.tvPegawaiJabatan.text = it[1]   //second index string for jabatan
+        })
     }
 
     override fun onDestroyView() {

@@ -10,7 +10,7 @@ import app.ourapps.apps_rebuild.databinding.ActivityGerminasi1SeedBinding
 import app.ourapps.apps_rebuild.models.menu.Menu
 import app.ourapps.apps_rebuild.ui.seedp.GerminasiSeedViewModel
 import app.ourapps.apps_rebuild.utils.AppRoutes
-import app.ourapps.apps_rebuild.utils.MenuClickListener
+import app.ourapps.apps_rebuild.utils.menu.MenuClickListener
 import app.ourapps.apps_rebuild.utils.menu.MenuListAdapter
 
 class Germinasi1SeedActivity : AppCompatActivity(), MenuClickListener {

@@ -11,6 +11,9 @@ interface IPreferenceHelper {
     fun setName(name: String)
     fun getName(): String
 
+    fun setJabatan(jabatan: String)
+    fun getJabatan(): String
+
     fun setStatus(status: Boolean)
     fun getStatus(): Boolean
 
