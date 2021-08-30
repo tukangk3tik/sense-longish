@@ -1,8 +1,10 @@
 package app.ourapps.apps_rebuild.ui.seedp.lbk.panen
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import app.ourapps.apps_rebuild.R
 import app.ourapps.apps_rebuild.databinding.ItemListKawinanBinding
 import app.ourapps.apps_rebuild.models.kawinan.Kawinan
 import app.ourapps.apps_rebuild.utils.kawinan.KawinanClickListener

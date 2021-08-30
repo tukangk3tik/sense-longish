@@ -28,13 +28,13 @@ val subMenuLBKSP = listOf(
     Menu(7,  R.string.ethreel, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_ethreel"),
     Menu(8, R.string.rontok, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_rontok"),
     Menu(9,  R.string.rendam, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_rendam"),
-    Menu(10, R.string.kupas, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_timbang"),
-    Menu(11,  R.string.sortasi, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_panen"),
-    Menu(12, R.string.penggonian, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_timbang"),
-    Menu(13,  R.string.gudang, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_panen"),
-    Menu(14, R.string.pengiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_timbang"),
-    Menu(15,  R.string.penerimaan_kiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_panen"),
-    Menu(16, R.string.penyimpanan_kiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_timbang"),
+    Menu(10, R.string.kupas, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_kupas"),
+    Menu(11,  R.string.sortasi, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_sortasi"),
+    Menu(12, R.string.penggonian, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_goni"),
+    Menu(13,  R.string.gudang, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_gudang"),
+    Menu(14, R.string.pengiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_kirim"),
+    Menu(15,  R.string.penerimaan_kiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_terima_kiriman"),
+    Menu(16, R.string.penyimpanan_kiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "sp_lbk_simpan_kiriman"),
 )
 
 val subMenuLBKBreeding = listOf(

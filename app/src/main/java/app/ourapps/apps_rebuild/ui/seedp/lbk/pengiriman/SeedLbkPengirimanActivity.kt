@@ -1,8 +1,10 @@
 package app.ourapps.apps_rebuild.ui.seedp.lbk.pengiriman
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.commit
 import app.ourapps.apps_rebuild.databinding.ActivitySeedLbkPengirimanBinding
+import app.ourapps.apps_rebuild.ui.seedp.lbk.sortasi.SeedLbkSortasiFragment
 
 class SeedLbkPengirimanActivity : AppCompatActivity() {
 
@@ -13,5 +15,20 @@ class SeedLbkPengirimanActivity : AppCompatActivity() {
 
         binding = ActivitySeedLbkPengirimanBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val mFragmentManager = supportFragmentManager
+        val mListFragment = SeedLbkPengirimanFragment()
+        val fragment = mFragmentManager.findFragmentByTag(SeedLbkPengirimanFragment::class.java.simpleName)
+
+        if (fragment !is SeedLbkSortasiFragment) {
+            mFragmentManager.commit {
+                setReorderingAllowed(true)
+                add(binding.fragmentContainerPengiriman.id, mListFragment, SeedLbkPengirimanFragment::class.java.simpleName)
+            }
+        }
+
+        binding.btnBack.setOnClickListener {
+            onBackPressed()
+        }
     }
 }

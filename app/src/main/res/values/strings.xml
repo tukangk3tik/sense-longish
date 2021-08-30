@@ -75,14 +75,12 @@
     <string name="simpan">SIMPAN</string>
     <string name="berat">Berat</string>
     <string name="no_kaleng">No. Kaleng</string>
-    <string name="ethreel">Ethreel</string>
     <string name="jumlah_normal">Jumlah normal</string>
     <string name="jumlah_afkir_kecil">Jumlah afkir kecil</string>
     <string name="jumlah_afkir_pecah">Jumlah afkir pecah</string>
     <string name="jumlah_afkir_bule">Jumlah afkir bule</string>
     <string name="jumlah_periksa_lembaga">Jumlah periksa lembaga</string>
     <string name="daftar_nomor_goni_yang_belum_dikerjakan">Daftar nomor goni yang belum dikerjakan</string>
-    <string name="no_goni">No. Goni</string>
     <string name="no_goni">No. Goni</string>
     <string name="rak">Rak</string>
     <string name="baris">Baris</string>

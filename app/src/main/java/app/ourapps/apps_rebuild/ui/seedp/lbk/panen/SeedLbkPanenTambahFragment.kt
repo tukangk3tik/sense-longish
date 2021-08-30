@@ -27,10 +27,8 @@ class SeedLbkPanenTambahFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val contoh = "12321113"
         binding.edtNokawinan.inputType = InputType.TYPE_NULL
         binding.edtNokawinan.setTextIsSelectable(false)
-        binding.edtNokawinan.setText(contoh)
     }
 
 }
