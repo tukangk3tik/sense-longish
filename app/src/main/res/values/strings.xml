@@ -85,5 +85,20 @@
     <string name="rak">Rak</string>
     <string name="baris">Baris</string>
     <string name="kolom">Kolom</string>
+    <string name="daftar_nomor_produksi_yang_afkir">Daftar nomor produksi yang afkir</string>
+    <string name="no_produksi">No. Produksi</string>
+    <string name="jumlah_afkir">Jumlah Afkir</string>
+    <string name="daftar_nomor_kantong_yang_belum_dikerjakan">Daftar nomor kantong yang belum dikerjakan</string>
+    <string name="no_kantong">No. Kantong</string>
+    <string name="no_bak">No. Bak</string>
+    <string name="daftar_nomor_kantong_yang_afkir">Daftar nomor kantong yang afkir</string>
+    <string name="pv">PV</string>
+    <string name="sv">SV</string>
+    <string name="ruang">Ruang</string>
+    <string name="termometer_1">Termometer 1</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="termometer_2">Termometer 2</string>
+    <string name="termometer_3">Termometer 3</string>
 
 </resources>

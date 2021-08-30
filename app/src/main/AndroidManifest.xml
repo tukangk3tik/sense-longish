@@ -13,6 +13,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Apps_Rebuild">
         <activity
+            android:name=".ui.seedp.germinasi_1.r_panas.SeedGermin1RuangPanasActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_1.suhu_r_panas.SeedGermin1SuhuRPanasActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_1.kering_angin.SeedGermin1KeringAnginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_1.fungisida.SeedGermin1FungisidaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_1.rendam.SeedGermin1RendamActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_1.r_apung_afkir.SeedGermin1AfkirApungActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_1.r_apung.SeedGermin1ApungActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.seedp.lbk.simpan_kiriman.SeedLbkSimpanKirimanActivity"
             android:exported="true" />
         <activity
