@@ -6,6 +6,13 @@ import app.ourapps.apps_rebuild.ui.breed.germinasi_2.Germinasi2BreedActivity
 import app.ourapps.apps_rebuild.ui.breed.lbk.LBKBreedActivity
 import app.ourapps.apps_rebuild.ui.seedp.SeedPActivity
 import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.Germinasi1SeedActivity
+import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.fungisida.SeedGermin1FungisidaActivity
+import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.kering_angin.SeedGermin1KeringAnginActivity
+import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.r_apung.SeedGermin1ApungActivity
+import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.r_apung_afkir.SeedGermin1AfkirApungActivity
+import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.r_panas.SeedGermin1RuangPanasActivity
+import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.rendam.SeedGermin1RendamActivity
+import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.suhu_r_panas.SeedGermin1SuhuRPanasActivity
 import app.ourapps.apps_rebuild.ui.seedp.germinasi_2.Germinasi2SeedActivity
 import app.ourapps.apps_rebuild.ui.seedp.lbk.LBKSeedActivity
 import app.ourapps.apps_rebuild.ui.seedp.lbk.ethreel.SeedLbkEthreelActivity
@@ -40,6 +47,8 @@ class AppRoutes {
         when (destination) {
             "sp" -> classRoute = SeedPActivity::class.java
             "breeding" -> classRoute = BreedingActivity::class.java
+
+            //seed production lbk
             "sp_lbk" -> classRoute = LBKSeedActivity::class.java
             "sp_lbk_panen" -> classRoute = SeedLbkPanenActivity::class.java
             "sp_lbk_timbang" -> classRoute = SeedLbkTimbangActivity::class.java
@@ -54,7 +63,17 @@ class AppRoutes {
             "sp_lbk_terima_kiriman" -> classRoute = SeedLbkTerimaKirimActivity::class.java
             "sp_lbk_simpan_kiriman" -> classRoute = SeedLbkSimpanKirimanActivity::class.java
 
+            //seed production germinasi 1
             "sp_germinasi_1" -> classRoute = Germinasi1SeedActivity::class.java
+            "sp_ger_1_apung" -> classRoute = SeedGermin1ApungActivity::class.java
+            "sp_ger_1_apung_afkir" -> classRoute = SeedGermin1AfkirApungActivity::class.java
+            "sp_ger_1_rendam" -> classRoute = SeedGermin1RendamActivity::class.java
+            "sp_ger_1_fungisida" -> classRoute = SeedGermin1FungisidaActivity::class.java
+            "sp_ger_1_kering_angin" -> classRoute = SeedGermin1KeringAnginActivity::class.java
+            "sp_ger_1_suhu_ruang_panas" -> classRoute = SeedGermin1SuhuRPanasActivity::class.java
+            "sp_ger_1_ruang_panas" -> classRoute = SeedGermin1RuangPanasActivity::class.java
+
+
             "sp_germinasi_2" -> classRoute = Germinasi2SeedActivity::class.java
 
             "breed_lbk" -> classRoute = LBKBreedActivity::class.java
