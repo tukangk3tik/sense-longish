@@ -4,6 +4,18 @@ import app.ourapps.apps_rebuild.ui.breed.BreedingActivity
 import app.ourapps.apps_rebuild.ui.breed.germinasi_1.Germinasi1BreedActivity
 import app.ourapps.apps_rebuild.ui.breed.germinasi_2.Germinasi2BreedActivity
 import app.ourapps.apps_rebuild.ui.breed.lbk.LBKBreedActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.ethreel.BreedLbkEthreelActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.gudang.BreedLbkGudangActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.kupas.BreedLbkKupasActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.panen.BreedLbkPanenActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.penggonian.BreedLbkPenggonianActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.pengiriman.BreedLbkPengirimanActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.rendam.BreedLbkRendamActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.rontok.BreedLbkRontokActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.simpan_kiriman.BreedLbkSimpanKirimanActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.sortasi.BreedLbkSortasiActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.terima_kiriman.BreedLbkTerimaKirimActivity
+import app.ourapps.apps_rebuild.ui.breed.lbk.timbang.BreedLbkTimbangActivity
 import app.ourapps.apps_rebuild.ui.seedp.SeedPActivity
 import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.Germinasi1SeedActivity
 import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.fungisida.SeedGermin1FungisidaActivity
@@ -102,8 +114,21 @@ class AppRoutes {
             "sp_ger_2_kutip_kch_1" -> classRoute = SeedGermin2KutipKch1Activity::class.java
             "sp_ger_2_kutip_kch_2" -> classRoute = SeedGermin2KutipKch2Activity::class.java
 
-
+            //breed lbk
             "breed_lbk" -> classRoute = LBKBreedActivity::class.java
+            "breed_lbk_panen" -> classRoute = BreedLbkPanenActivity::class.java
+            "breed_lbk_timbang" -> classRoute = BreedLbkTimbangActivity::class.java
+            "breed_lbk_ethreel" -> classRoute = BreedLbkEthreelActivity::class.java
+            "breed_lbk_rontok" -> classRoute = BreedLbkRontokActivity::class.java
+            "breed_lbk_rendam" -> classRoute = BreedLbkRendamActivity::class.java
+            "breed_lbk_kupas" -> classRoute = BreedLbkKupasActivity::class.java
+            "breed_lbk_sortasi" -> classRoute = BreedLbkSortasiActivity::class.java
+            "breed_lbk_goni" -> classRoute = BreedLbkPenggonianActivity::class.java
+            "breed_lbk_gudang" -> classRoute = BreedLbkGudangActivity::class.java
+            "breed_lbk_kirim" -> classRoute = BreedLbkPengirimanActivity::class.java
+            "breed_lbk_terima_kiriman" -> classRoute = BreedLbkTerimaKirimActivity::class.java
+            "breed_lbk_simpan_kiriman" -> classRoute = BreedLbkSimpanKirimanActivity::class.java
+
             "breed_germinasi_1" -> classRoute = Germinasi1BreedActivity::class.java
             "breed_germinasi_2" -> classRoute = Germinasi2BreedActivity::class.java
             else -> {

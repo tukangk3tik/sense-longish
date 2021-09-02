@@ -43,13 +43,13 @@ val subMenuLBKBreeding = listOf(
     Menu(19,  R.string.ethreel, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_ethreel"),
     Menu(20, R.string.rontok, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_rontok"),
     Menu(21,  R.string.rendam, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_rendam"),
-    Menu(22, R.string.kupas, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_timbang"),
-    Menu(23,  R.string.sortasi, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_panen"),
-    Menu(24, R.string.penggonian, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_timbang"),
-    Menu(25,  R.string.gudang, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_panen"),
-    Menu(26, R.string.pengiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_timbang"),
-    Menu(27,  R.string.penerimaan_kiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_panen"),
-    Menu(28, R.string.penyimpanan_kiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_timbang"),
+    Menu(22, R.string.kupas, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_kupas"),
+    Menu(23,  R.string.sortasi, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_sortasi"),
+    Menu(24, R.string.penggonian, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_goni"),
+    Menu(25,  R.string.gudang, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_gudang"),
+    Menu(26, R.string.pengiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_kirim"),
+    Menu(27,  R.string.penerimaan_kiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_terima_kiriman"),
+    Menu(28, R.string.penyimpanan_kiriman, MenuType.SUBMAIN, R.drawable.ic_detail_menu_192, "breed_lbk_simpan_kiriman"),
 )
 
 val subMenuGerminasi1SP = listOf(
