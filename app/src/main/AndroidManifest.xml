@@ -13,6 +13,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Apps_Rebuild">
         <activity
+            android:name=".ui.breed.lbk.simpan_kiriman.BreedLbkSimpanKirimanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.lbk.terima_kiriman.BreedLbkTerimaKirimActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.lbk.pengiriman.BreedLbkPengirimanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.lbk.gudang.BreedLbkGudangActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.lbk.penggonian.BreedLbkPenggonianActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.lbk.sortasi.BreedLbkSortasiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.lbk.kupas.BreedLbkKupasActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.lbk.rendam.BreedLbkRendamActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.lbk.rontok.BreedLbkRontokActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.lbk.ethreel.BreedLbkEthreelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.lbk.timbang.BreedLbkTimbangActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.lbk.panen.BreedLbkPanenActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.seedp.germinasi_2.kutip_kch_2.SeedGermin2KutipKch2Activity"
             android:exported="true" />
         <activity
