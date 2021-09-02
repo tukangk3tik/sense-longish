@@ -13,6 +13,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Apps_Rebuild">
         <activity
+            android:name=".ui.seedp.germinasi_2.kutip_kch_2.SeedGermin2KutipKch2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.kutip_kch_1.SeedGermin2KutipKch1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.kutip_5.SeedGermin2Kutip5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.kutip_4.SeedGermin2Kutip4Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.kutip_3.SeedGermin2Kutip3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.kutip_2.SeedGermin2Kutip2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.kutip_1.SeedGermin2Kutip1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.aerasi_r_gelap.SeedGermin2AerasiRGelapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.r_gelap.SeedGermin2RGelapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.kering_angin.SeedGermin2KeringAnginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.fungisida.SeedGermin2FungisidaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.rendam.SeedGermin2RendamActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.seedp.germinasi_2.preheating.SeedGermin2PreheatingActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.seedp.germinasi_1.r_panas.SeedGermin1RuangPanasActivity"
             android:exported="true" />
         <activity

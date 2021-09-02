@@ -20,7 +20,7 @@ class SeedGermin1FungisidaActivity : AppCompatActivity() {
         val mListFragment = SeedGermin1FungisidaFragment()
         val fragment = mFragmentManager.findFragmentByTag(SeedGermin1FungisidaFragment::class.java.simpleName)
 
-        if (fragment !is SeedGermin1ApungFragment) {
+        if (fragment !is SeedGermin1FungisidaFragment) {
             mFragmentManager.commit {
                 setReorderingAllowed(true)
                 add(binding.fragmentContainerFungisida.id, mListFragment, SeedGermin1FungisidaFragment::class.java.simpleName)

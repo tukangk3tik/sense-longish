@@ -6,9 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import app.ourapps.apps_rebuild.R
-import app.ourapps.apps_rebuild.databinding.FragmentSeedGermin1FungisidaBinding
 import app.ourapps.apps_rebuild.databinding.FragmentSeedGermin1KeringAnginBinding
-import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.fungisida.SeedGermin1FungisidaTambahFragment
 
 class SeedGermin1KeringAnginFragment : Fragment() {
 

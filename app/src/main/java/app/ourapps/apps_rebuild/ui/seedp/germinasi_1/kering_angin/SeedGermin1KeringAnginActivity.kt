@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.commit
 import app.ourapps.apps_rebuild.databinding.ActivitySeedGermin1KeringAnginBinding
-import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.fungisida.SeedGermin1FungisidaFragment
-import app.ourapps.apps_rebuild.ui.seedp.germinasi_1.r_apung.SeedGermin1ApungFragment
 
 class SeedGermin1KeringAnginActivity : AppCompatActivity() {
 

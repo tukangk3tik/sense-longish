@@ -1,4 +1,4 @@
-package app.ourapps.apps_rebuild.ui.seedp.germinasi_1.fungisida
+package app.ourapps.apps_rebuild.ui.seedp.germinasi_2.kering_angin
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import app.ourapps.apps_rebuild.R
-import app.ourapps.apps_rebuild.databinding.FragmentSeedGermin1FungisidaBinding
+import app.ourapps.apps_rebuild.databinding.FragmentSeedGermin2KeringAnginBinding
 
-class SeedGermin1FungisidaFragment : Fragment() {
+class SeedGermin2KeringAnginFragment : Fragment() {
 
-    private var _binding: FragmentSeedGermin1FungisidaBinding? = null
+    private var _binding: FragmentSeedGermin2KeringAnginBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -18,14 +18,14 @@ class SeedGermin1FungisidaFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        _binding = FragmentSeedGermin1FungisidaBinding.inflate(layoutInflater, container, false)
+        _binding = FragmentSeedGermin2KeringAnginBinding.inflate(layoutInflater, container, false)
         val root = binding.root
 
         binding.btnAddItem.setOnClickListener {
-            val mFragment = SeedGermin1FungisidaTambahFragment()
+            val mFragment = SeedGermin2KeringAnginTambahFragment()
             val mFragmentManager = parentFragmentManager
             mFragmentManager.beginTransaction().apply {
-                replace(R.id.fragment_container_fungisida, mFragment, SeedGermin1FungisidaTambahFragment::class.java.simpleName)
+                replace(R.id.fragment_container_kering_angin, mFragment, SeedGermin2KeringAnginTambahFragment::class.java.simpleName)
                 addToBackStack(null)
                 commit()
             }
@@ -34,5 +34,7 @@ class SeedGermin1FungisidaFragment : Fragment() {
         // Inflate the layout for this fragment
         return root
     }
+
+
 
 }

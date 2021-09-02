@@ -100,5 +100,15 @@
     <string name="max">Max</string>
     <string name="termometer_2">Termometer 2</string>
     <string name="termometer_3">Termometer 3</string>
+    <string name="daftar_nomor_kantong_yang_dikerjakan">Daftar nomor kantong yang dikerjakan</string>
+    <string name="no_kutip">No. Kutip</string>
+    <string name="jumlah_kantong">Jumlah Kantong</string>
+    <string name="jumlah_kecambah_normal">Jumlah Kecambah Normal</string>
+    <string name="no_kutip_kch">No Kutip KCH</string>
+    <string name="jumlah_kecambah_halus">Jumlah Kecambah Halus</string>
+    <string name="jumlah_kecambah_afkir">Jumlah Kecambah Afkir</string>
+    <string name="jumlah_kecambah_busuk">Jumlah Kecambah Busuk</string>
+    <string name="jumlah_kecambah_tidak_tumbuh">Jumlah Kecambah Tidak Tumbuh</string>
+    <string name="daftar_nomor_kutip_yang_belum_dikerjakan">Daftar nomor kutip yang belum dikerjakan</string>
 
 </resources>
