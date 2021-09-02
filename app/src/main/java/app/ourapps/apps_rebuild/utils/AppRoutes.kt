@@ -2,6 +2,11 @@ package app.ourapps.apps_rebuild.utils
 
 import app.ourapps.apps_rebuild.ui.breed.BreedingActivity
 import app.ourapps.apps_rebuild.ui.breed.germinasi_1.Germinasi1BreedActivity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_1.aerasi.BreedGermin1AerasiActivity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_1.fungisida.BreedGermin1FungisidaActivity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_1.kering_angin.BreedGermin1KeringAnginActivity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_1.r_panas.BreedGermin1RPanasActivity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_1.rendam.BreedGermin1RendamActivity
 import app.ourapps.apps_rebuild.ui.breed.germinasi_2.Germinasi2BreedActivity
 import app.ourapps.apps_rebuild.ui.breed.lbk.LBKBreedActivity
 import app.ourapps.apps_rebuild.ui.breed.lbk.ethreel.BreedLbkEthreelActivity
@@ -130,6 +135,12 @@ class AppRoutes {
             "breed_lbk_simpan_kiriman" -> classRoute = BreedLbkSimpanKirimanActivity::class.java
 
             "breed_germinasi_1" -> classRoute = Germinasi1BreedActivity::class.java
+            "breed_ger_1_rendam" -> classRoute = BreedGermin1RendamActivity::class.java
+            "breed_ger_1_fungisida" -> classRoute = BreedGermin1FungisidaActivity::class.java
+            "breed_ger_1_kering_angin" -> classRoute = BreedGermin1KeringAnginActivity::class.java
+            "breed_ger_1_ruang_panas" -> classRoute = BreedGermin1RPanasActivity::class.java
+            "breed_ger_1_aerasi" -> classRoute = BreedGermin1AerasiActivity::class.java
+            
             "breed_germinasi_2" -> classRoute = Germinasi2BreedActivity::class.java
             else -> {
                 classRoute = null

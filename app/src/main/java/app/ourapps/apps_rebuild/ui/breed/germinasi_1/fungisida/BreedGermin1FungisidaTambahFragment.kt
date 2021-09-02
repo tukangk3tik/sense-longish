@@ -1,4 +1,4 @@
-    package app.ourapps.apps_rebuild.ui.seedp.germinasi_2.aerasi_r_gelap
+package app.ourapps.apps_rebuild.ui.breed.germinasi_1.fungisida
 
 import android.os.Bundle
 import android.text.InputType
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import app.ourapps.apps_rebuild.databinding.FragmentSeedGermin2AerasiRGelapTambahBinding
+import app.ourapps.apps_rebuild.databinding.FragmentBreedGermin1FungisidaTambahBinding
 
-class SeedGermin2AerasiRGelapTambahFragment : Fragment() {
+class BreedGermin1FungisidaTambahFragment : Fragment() {
 
-    private var _binding: FragmentSeedGermin2AerasiRGelapTambahBinding? = null
+    private var _binding: FragmentBreedGermin1FungisidaTambahBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -18,7 +18,7 @@ class SeedGermin2AerasiRGelapTambahFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        _binding = FragmentSeedGermin2AerasiRGelapTambahBinding.inflate(layoutInflater, container, false)
+        _binding = FragmentBreedGermin1FungisidaTambahBinding.inflate(layoutInflater, container, false)
         val root = binding.root
 
         // Inflate the layout for this fragment
@@ -28,7 +28,8 @@ class SeedGermin2AerasiRGelapTambahFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.edtNoKantong.inputType = InputType.TYPE_NULL
-        binding.edtNoKantong.setTextIsSelectable(false)
+        binding.edtNoProduksi.inputType = InputType.TYPE_NULL
+        binding.edtNoProduksi.setTextIsSelectable(false)
     }
+
 }

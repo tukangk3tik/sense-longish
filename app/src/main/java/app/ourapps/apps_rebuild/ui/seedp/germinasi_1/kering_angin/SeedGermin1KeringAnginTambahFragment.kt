@@ -31,6 +31,4 @@ class SeedGermin1KeringAnginTambahFragment : Fragment() {
         binding.edtNoKantong.inputType = InputType.TYPE_NULL
         binding.edtNoKantong.setTextIsSelectable(false)
     }
-
-
 }

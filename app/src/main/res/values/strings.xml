@@ -110,5 +110,6 @@
     <string name="jumlah_kecambah_busuk">Jumlah Kecambah Busuk</string>
     <string name="jumlah_kecambah_tidak_tumbuh">Jumlah Kecambah Tidak Tumbuh</string>
     <string name="daftar_nomor_kutip_yang_belum_dikerjakan">Daftar nomor kutip yang belum dikerjakan</string>
+    <string name="daftar_nomor_produksi_yang_belum_dikerjakan">Daftar nomor produksi yang belum dikerjakan</string>
 
 </resources>

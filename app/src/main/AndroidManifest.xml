@@ -13,6 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Apps_Rebuild">
         <activity
+            android:name=".ui.breed.germinasi_1.aerasi.BreedGermin1AerasiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_1.r_panas.BreedGermin1RPanasActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_1.kering_angin.BreedGermin1KeringAnginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_1.fungisida.BreedGermin1FungisidaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_1.rendam.BreedGermin1RendamActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.breed.lbk.simpan_kiriman.BreedLbkSimpanKirimanActivity"
             android:exported="true" />
         <activity
