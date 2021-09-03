@@ -13,6 +13,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Apps_Rebuild">
         <activity
+            android:name=".ui.breed.germinasi_2.kutip_5.BreedGermin2Kutip5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_2.kutip_4.BreedGermin2Kutip4Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_2.kutip_3.BreedGermin2Kutip3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_2.kutip_2.BreedGermin2Kutip2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_2.kutip_1.BreedGermin2Kutip1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_2.r_gelap.BreedGermin2RGelapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_2.kering_angin.BreedGermin2KeringAnginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_2.fungisida.BreedGermin2FungisidaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_2.rendam.BreedGermin2RendamActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.breed.germinasi_2.preheating.BreedGermin2PreheatingActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.breed.germinasi_1.aerasi.BreedGermin1AerasiActivity"
             android:exported="true" />
         <activity

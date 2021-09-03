@@ -8,6 +8,16 @@ import app.ourapps.apps_rebuild.ui.breed.germinasi_1.kering_angin.BreedGermin1Ke
 import app.ourapps.apps_rebuild.ui.breed.germinasi_1.r_panas.BreedGermin1RPanasActivity
 import app.ourapps.apps_rebuild.ui.breed.germinasi_1.rendam.BreedGermin1RendamActivity
 import app.ourapps.apps_rebuild.ui.breed.germinasi_2.Germinasi2BreedActivity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_2.fungisida.BreedGermin2FungisidaActivity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_2.kering_angin.BreedGermin2KeringAnginActivity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_2.kutip_1.BreedGermin2Kutip1Activity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_2.kutip_2.BreedGermin2Kutip2Activity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_2.kutip_3.BreedGermin2Kutip3Activity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_2.kutip_4.BreedGermin2Kutip4Activity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_2.kutip_5.BreedGermin2Kutip5Activity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_2.preheating.BreedGermin2PreheatingActivity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_2.r_gelap.BreedGermin2RGelapActivity
+import app.ourapps.apps_rebuild.ui.breed.germinasi_2.rendam.BreedGermin2RendamActivity
 import app.ourapps.apps_rebuild.ui.breed.lbk.LBKBreedActivity
 import app.ourapps.apps_rebuild.ui.breed.lbk.ethreel.BreedLbkEthreelActivity
 import app.ourapps.apps_rebuild.ui.breed.lbk.gudang.BreedLbkGudangActivity
@@ -134,14 +144,27 @@ class AppRoutes {
             "breed_lbk_terima_kiriman" -> classRoute = BreedLbkTerimaKirimActivity::class.java
             "breed_lbk_simpan_kiriman" -> classRoute = BreedLbkSimpanKirimanActivity::class.java
 
+            //breed germinasi 1
             "breed_germinasi_1" -> classRoute = Germinasi1BreedActivity::class.java
             "breed_ger_1_rendam" -> classRoute = BreedGermin1RendamActivity::class.java
             "breed_ger_1_fungisida" -> classRoute = BreedGermin1FungisidaActivity::class.java
             "breed_ger_1_kering_angin" -> classRoute = BreedGermin1KeringAnginActivity::class.java
             "breed_ger_1_ruang_panas" -> classRoute = BreedGermin1RPanasActivity::class.java
             "breed_ger_1_aerasi" -> classRoute = BreedGermin1AerasiActivity::class.java
-            
+
+            //breed germinasi 2
             "breed_germinasi_2" -> classRoute = Germinasi2BreedActivity::class.java
+            "breed_ger_2_preheat" -> classRoute = BreedGermin2PreheatingActivity::class.java
+            "breed_ger_2_rendam" -> classRoute = BreedGermin2RendamActivity::class.java
+            "breed_ger_2_fungisida" -> classRoute = BreedGermin2FungisidaActivity::class.java
+            "breed_ger_2_kering_angin" -> classRoute = BreedGermin2KeringAnginActivity::class.java
+            "breed_ger_2_ruang_gelap" -> classRoute = BreedGermin2RGelapActivity::class.java
+            "breed_ger_2_kutip_1" -> classRoute = BreedGermin2Kutip1Activity::class.java
+            "breed_ger_2_kutip_2" -> classRoute = BreedGermin2Kutip2Activity::class.java
+            "breed_ger_2_kutip_3" -> classRoute = BreedGermin2Kutip3Activity::class.java
+            "breed_ger_2_kutip_4" -> classRoute = BreedGermin2Kutip4Activity::class.java
+            "breed_ger_2_kutip_5" -> classRoute = BreedGermin2Kutip5Activity::class.java
+
             else -> {
                 classRoute = null
                 println("No route available!")
